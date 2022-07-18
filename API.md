@@ -1,5 +1,7 @@
 # API Document
 
+[Swagger](https://lyric-chan.fressive.cn/docs)
+
 ## 获取歌词
 
 **GET** `/api/v1/lyrics`
