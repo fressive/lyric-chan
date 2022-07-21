@@ -29,8 +29,7 @@ def fetch(title, artist, album):
         
         lyric = data["lrc"]["lyric"]
 
-        if "tlyric" in data.keys():
-            translated_lyric = data["tlyric"]["lyric"]
+        translated_lyric = data["tlyric"]["lyric"] if "tlyric" in data.keys() else None
             
         lyrics.append({
             "source": lyric,
